@@ -1,0 +1,648 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:8P8C J?
+U 1 1 5B72E546
+P 7200 2150
+F 0 "J?" H 7255 2817 50  0000 C CNN
+F 1 "8P8C" H 7255 2726 50  0000 C CNN
+F 2 "" V 7200 2175 50  0001 C CNN
+F 3 "~" V 7200 2175 50  0001 C CNN
+	1    7200 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Interface_Expansion:PCF8574 U?
+U 1 1 5B72E735
+P 1400 5950
+F 0 "U?" H 1400 6828 50  0000 C CNN
+F 1 "PCF8574" H 1400 6737 50  0000 C CNN
+F 2 "" H 1400 5950 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 1400 5950 50  0001 C CNN
+	1    1400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B72E959
+P 1400 6800
+F 0 "#PWR?" H 1400 6550 50  0001 C CNN
+F 1 "GND" H 1405 6627 50  0000 C CNN
+F 2 "" H 1400 6800 50  0001 C CNN
+F 3 "" H 1400 6800 50  0001 C CNN
+	1    1400 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5B72E9AC
+P 1400 5150
+F 0 "#PWR?" H 1400 5000 50  0001 C CNN
+F 1 "+5V" H 1415 5323 50  0000 C CNN
+F 2 "" H 1400 5150 50  0001 C CNN
+F 3 "" H 1400 5150 50  0001 C CNN
+	1    1400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5150 1400 5250
+Wire Wire Line
+	1400 6650 1400 6800
+NoConn ~ 17850 -3100
+NoConn ~ 24650 -800
+$Comp
+L Isolator:LTV-847 U?
+U 1 1 5B733EB2
+P 3200 3100
+F 0 "U?" H 3200 3425 50  0000 C CNN
+F 1 "LTV-847" H 3200 3334 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 2900 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 3100 50  0001 L CNN
+	1    3200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 2 1 5B733FBE
+P 3200 3650
+F 0 "U?" H 3200 3975 50  0000 C CNN
+F 1 "LTV-847" H 3200 3884 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 3450 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 3650 50  0001 L CNN
+	2    3200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 3 1 5B734057
+P 3200 4200
+F 0 "U?" H 3200 4525 50  0000 C CNN
+F 1 "LTV-847" H 3200 4434 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 4000 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 4200 50  0001 L CNN
+	3    3200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 4 1 5B7340EB
+P 3200 4750
+F 0 "U?" H 3200 5075 50  0000 C CNN
+F 1 "LTV-847" H 3200 4984 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 4550 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 4750 50  0001 L CNN
+	4    3200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 1 1 5B7353E2
+P 3200 950
+F 0 "U?" H 3200 1275 50  0000 C CNN
+F 1 "LTV-847" H 3200 1184 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 750 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 950 50  0001 L CNN
+	1    3200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 2 1 5B7353E8
+P 3200 1500
+F 0 "U?" H 3200 1825 50  0000 C CNN
+F 1 "LTV-847" H 3200 1734 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 1300 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 1500 50  0001 L CNN
+	2    3200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 3 1 5B7353EE
+P 3200 2050
+F 0 "U?" H 3200 2375 50  0000 C CNN
+F 1 "LTV-847" H 3200 2284 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 1850 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 2050 50  0001 L CNN
+	3    3200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 4 1 5B7353F4
+P 3200 2550
+F 0 "U?" H 3200 2875 50  0000 C CNN
+F 1 "LTV-847" H 3200 2784 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 2350 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 2550 50  0001 L CNN
+	4    3200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B738E50
+P 5050 850
+F 0 "Q?" H 5241 804 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 895 50  0000 L CNN
+F 2 "" H 5250 950 50  0001 C CNN
+F 3 "~" H 5050 850 50  0001 C CNN
+	1    5050 850 
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B73B28F
+P 5050 1400
+F 0 "Q?" H 5241 1354 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 1445 50  0000 L CNN
+F 2 "" H 5250 1500 50  0001 C CNN
+F 3 "~" H 5050 1400 50  0001 C CNN
+	1    5050 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B73B2EB
+P 5050 1950
+F 0 "Q?" H 5241 1904 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 1995 50  0000 L CNN
+F 2 "" H 5250 2050 50  0001 C CNN
+F 3 "~" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B741988
+P 5050 2450
+F 0 "Q?" H 5241 2404 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 2495 50  0000 L CNN
+F 2 "" H 5250 2550 50  0001 C CNN
+F 3 "~" H 5050 2450 50  0001 C CNN
+	1    5050 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B74198E
+P 5050 3000
+F 0 "Q?" H 5241 2954 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 3045 50  0000 L CNN
+F 2 "" H 5250 3100 50  0001 C CNN
+F 3 "~" H 5050 3000 50  0001 C CNN
+	1    5050 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B741994
+P 5050 3550
+F 0 "Q?" H 5241 3504 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 3595 50  0000 L CNN
+F 2 "" H 5250 3650 50  0001 C CNN
+F 3 "~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B741B64
+P 5050 4100
+F 0 "Q?" H 5241 4054 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 4145 50  0000 L CNN
+F 2 "" H 5250 4200 50  0001 C CNN
+F 3 "~" H 5050 4100 50  0001 C CNN
+	1    5050 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B741B6A
+P 5050 4650
+F 0 "Q?" H 5241 4604 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 4695 50  0000 L CNN
+F 2 "" H 5250 4750 50  0001 C CNN
+F 3 "~" H 5050 4650 50  0001 C CNN
+	1    5050 4650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6800 1850 6700 1850
+Wire Wire Line
+	6700 1850 6700 1050
+Wire Wire Line
+	5150 1600 6650 1600
+Wire Wire Line
+	6650 1600 6650 1950
+Wire Wire Line
+	6650 1950 6800 1950
+Wire Wire Line
+	6800 2050 5850 2050
+Wire Wire Line
+	5850 2050 5850 2150
+Wire Wire Line
+	5850 2150 5150 2150
+Wire Wire Line
+	5150 2650 5900 2650
+Wire Wire Line
+	5900 2650 5900 2350
+Wire Wire Line
+	5900 2350 6800 2350
+Wire Wire Line
+	5150 3200 5950 3200
+Wire Wire Line
+	5950 3200 5950 2450
+Wire Wire Line
+	5950 2450 6800 2450
+Wire Wire Line
+	5150 3750 6000 3750
+Wire Wire Line
+	6000 3750 6000 2550
+Wire Wire Line
+	6000 2550 6800 2550
+$Comp
+L Connector:8P8C J?
+U 1 1 5B742CE5
+P 7200 3450
+F 0 "J?" H 7255 4117 50  0000 C CNN
+F 1 "8P8C" H 7255 4026 50  0000 C CNN
+F 2 "" V 7200 3475 50  0001 C CNN
+F 3 "~" V 7200 3475 50  0001 C CNN
+	1    7200 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 4300 6100 4300
+Wire Wire Line
+	6100 4300 6100 3150
+Wire Wire Line
+	6100 3150 6800 3150
+Wire Wire Line
+	5150 4850 6150 4850
+Wire Wire Line
+	6150 4850 6150 3250
+Wire Wire Line
+	6150 3250 6800 3250
+$Comp
+L Isolator:LTV-847 U?
+U 1 1 5B745234
+P 3200 5300
+F 0 "U?" H 3200 5625 50  0000 C CNN
+F 1 "LTV-847" H 3200 5534 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 5100 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 5300 50  0001 L CNN
+	1    3200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 2 1 5B74523A
+P 3200 5850
+F 0 "U?" H 3200 6175 50  0000 C CNN
+F 1 "LTV-847" H 3200 6084 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 5650 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 5850 50  0001 L CNN
+	2    3200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 3 1 5B745240
+P 3200 6400
+F 0 "U?" H 3200 6725 50  0000 C CNN
+F 1 "LTV-847" H 3200 6634 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 6200 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 6400 50  0001 L CNN
+	3    3200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:LTV-847 U?
+U 4 1 5B745246
+P 3200 6950
+F 0 "U?" H 3200 7275 50  0000 C CNN
+F 1 "LTV-847" H 3200 7184 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3000 6750 50  0001 L CIN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF" H 3200 6950 50  0001 L CNN
+	4    3200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B74524C
+P 5050 5200
+F 0 "Q?" H 5241 5154 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 5245 50  0000 L CNN
+F 2 "" H 5250 5300 50  0001 C CNN
+F 3 "~" H 5050 5200 50  0001 C CNN
+	1    5050 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B745252
+P 5050 5750
+F 0 "Q?" H 5241 5704 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 5795 50  0000 L CNN
+F 2 "" H 5250 5850 50  0001 C CNN
+F 3 "~" H 5050 5750 50  0001 C CNN
+	1    5050 5750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B745258
+P 5050 6300
+F 0 "Q?" H 5241 6254 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 6345 50  0000 L CNN
+F 2 "" H 5250 6400 50  0001 C CNN
+F 3 "~" H 5050 6300 50  0001 C CNN
+	1    5050 6300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_ECB Q?
+U 1 1 5B74525E
+P 5050 6850
+F 0 "Q?" H 5241 6804 50  0000 L CNN
+F 1 "Q_PNP_ECB" H 5241 6895 50  0000 L CNN
+F 2 "" H 5250 6950 50  0001 C CNN
+F 3 "~" H 5050 6850 50  0001 C CNN
+	1    5050 6850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5150 5400 6200 5400
+Wire Wire Line
+	6200 5400 6200 3350
+Wire Wire Line
+	6200 3350 6800 3350
+Wire Wire Line
+	5150 5950 6250 5950
+Wire Wire Line
+	6250 5950 6250 3650
+Wire Wire Line
+	6250 3650 6800 3650
+Wire Wire Line
+	6300 6500 6300 3750
+Wire Wire Line
+	6300 3750 6800 3750
+Wire Wire Line
+	6350 7050 6350 3850
+Wire Wire Line
+	6350 3850 6800 3850
+Wire Wire Line
+	6500 7650 6500 3550
+Wire Wire Line
+	6500 2150 6800 2150
+Wire Wire Line
+	6800 2250 6500 2250
+Connection ~ 6500 2250
+Wire Wire Line
+	6500 2250 6500 2150
+Wire Wire Line
+	6800 3450 6500 3450
+Connection ~ 6500 3450
+Wire Wire Line
+	6500 3450 6500 2250
+Wire Wire Line
+	6800 3550 6500 3550
+Connection ~ 6500 3550
+Wire Wire Line
+	6500 3550 6500 3450
+Wire Wire Line
+	3500 1050 3700 1050
+Wire Wire Line
+	3700 1050 3700 7250
+Wire Wire Line
+	3500 1600 3800 1600
+Wire Wire Line
+	3800 1600 3800 7250
+Wire Wire Line
+	3900 7250 3900 2150
+Wire Wire Line
+	3900 2150 3500 2150
+Wire Wire Line
+	4000 7250 4000 2650
+Wire Wire Line
+	4000 2650 3500 2650
+Wire Wire Line
+	4100 7250 4100 3200
+Wire Wire Line
+	4100 3200 3500 3200
+Wire Wire Line
+	4200 7250 4200 3750
+Wire Wire Line
+	4200 3750 3500 3750
+Wire Wire Line
+	4300 7250 4300 4300
+Wire Wire Line
+	4300 4300 3500 4300
+Wire Wire Line
+	4400 7250 4400 4850
+Wire Wire Line
+	4400 4850 3500 4850
+$Comp
+L Device:R_Network12 RN?
+U 1 1 5B75BF03
+P 4300 7450
+F 0 "RN?" H 3620 7404 50  0000 R CNN
+F 1 "R_Network12" H 3620 7495 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP13" V 4975 7450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4300 7450 50  0001 C CNN
+	1    4300 7450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Network12 RN?
+U 1 1 5B75C1E1
+P 7900 5500
+F 0 "RN?" H 8480 5546 50  0000 L CNN
+F 1 "R_Network12" H 8480 5455 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP13" V 8575 5500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7900 5500 50  0001 C CNN
+	1    7900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network12 RN?
+U 1 1 5B75C249
+P 7900 6050
+F 0 "RN?" H 8480 6096 50  0000 L CNN
+F 1 "R_Network12" H 8480 6005 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP13" V 8575 6050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7900 6050 50  0001 C CNN
+	1    7900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5400 4500 5400
+Wire Wire Line
+	4500 5400 4500 7250
+Wire Wire Line
+	3500 5950 4600 5950
+Wire Wire Line
+	4600 5950 4600 7250
+Wire Wire Line
+	3500 6500 4700 6500
+Wire Wire Line
+	4700 6500 4700 7250
+Wire Wire Line
+	3500 7050 4800 7050
+Wire Wire Line
+	4800 7050 4800 7250
+Wire Wire Line
+	3500 6850 4850 6850
+Wire Wire Line
+	3500 6300 4850 6300
+Wire Wire Line
+	3500 5750 4850 5750
+Wire Wire Line
+	3500 5200 4850 5200
+Wire Wire Line
+	3500 4650 4850 4650
+Wire Wire Line
+	3500 4100 4850 4100
+Wire Wire Line
+	3500 3550 4850 3550
+Wire Wire Line
+	3500 3000 4850 3000
+Wire Wire Line
+	3500 2450 4850 2450
+Wire Wire Line
+	3500 1950 4850 1950
+Wire Wire Line
+	3500 1400 4850 1400
+Wire Wire Line
+	3500 850  4850 850 
+Wire Wire Line
+	5150 1050 6700 1050
+$Comp
+L Interface_Expansion:PCF8574 U?
+U 1 1 5B797237
+P 1400 2600
+F 0 "U?" H 1400 3478 50  0000 C CNN
+F 1 "PCF8574" H 1400 3387 50  0000 C CNN
+F 2 "" H 1400 2600 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 1400 2600 50  0001 C CNN
+	1    1400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B79723D
+P 1400 3450
+F 0 "#PWR?" H 1400 3200 50  0001 C CNN
+F 1 "GND" H 1405 3277 50  0000 C CNN
+F 2 "" H 1400 3450 50  0001 C CNN
+F 3 "" H 1400 3450 50  0001 C CNN
+	1    1400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5B797243
+P 1400 1800
+F 0 "#PWR?" H 1400 1650 50  0001 C CNN
+F 1 "+5V" H 1415 1973 50  0000 C CNN
+F 2 "" H 1400 1800 50  0001 C CNN
+F 3 "" H 1400 1800 50  0001 C CNN
+	1    1400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1800 1400 1900
+Wire Wire Line
+	1400 3300 1400 3450
+Wire Wire Line
+	1900 2200 1950 2200
+Wire Wire Line
+	2900 1050 1950 1050
+Wire Wire Line
+	1950 1050 1950 2200
+Wire Wire Line
+	2900 1600 2000 1600
+Wire Wire Line
+	2000 1600 2000 2300
+Wire Wire Line
+	2000 2300 1900 2300
+Wire Wire Line
+	2900 2150 2050 2150
+Wire Wire Line
+	2050 2150 2050 2400
+Wire Wire Line
+	2050 2400 1900 2400
+Wire Wire Line
+	1900 2900 1950 2900
+Wire Wire Line
+	1900 2800 2000 2800
+Wire Wire Line
+	1900 2700 2050 2700
+Wire Wire Line
+	1900 2600 2100 2600
+Wire Wire Line
+	1900 2500 2150 2500
+Wire Wire Line
+	2150 2500 2150 2650
+Wire Wire Line
+	2150 2650 2900 2650
+Wire Wire Line
+	2900 3200 2100 3200
+Wire Wire Line
+	2100 2600 2100 3200
+Wire Wire Line
+	2900 3750 2050 3750
+Wire Wire Line
+	2050 2700 2050 3750
+Wire Wire Line
+	2900 4300 2000 4300
+Wire Wire Line
+	2000 2800 2000 4300
+Wire Wire Line
+	2900 4850 1950 4850
+Wire Wire Line
+	1950 2900 1950 4850
+Wire Wire Line
+	1900 5550 2500 5550
+Wire Wire Line
+	2500 5550 2500 5400
+Wire Wire Line
+	2500 5400 2900 5400
+Wire Wire Line
+	1900 5650 2500 5650
+Wire Wire Line
+	2500 5650 2500 5950
+Wire Wire Line
+	2500 5950 2900 5950
+Wire Wire Line
+	1900 5750 2450 5750
+Wire Wire Line
+	2450 5750 2450 6500
+Wire Wire Line
+	2450 6500 2900 6500
+Wire Wire Line
+	1900 5850 2400 5850
+Wire Wire Line
+	2400 5850 2400 7050
+Wire Wire Line
+	2400 7050 2900 7050
+Wire Wire Line
+	3700 7650 6500 7650
+Wire Wire Line
+	5150 7050 6350 7050
+Wire Wire Line
+	5150 6500 6300 6500
+$EndSCHEMATC
